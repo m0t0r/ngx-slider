@@ -6,6 +6,7 @@
 /docs
 /tmp
 /out-tsc
+/projects/demo-app/src/app/docs
 
 # dependencies
 /node_modules
