@@ -4,7 +4,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
-import { NgxSliderModule } from 'ngx-slider';
+import { NgxSliderModule } from '@m0t0r/ngx-slider';
 
 import { DocsModule } from './docs/docs.module';
 

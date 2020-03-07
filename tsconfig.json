@@ -19,10 +19,10 @@
       "dom"
     ],
     "paths": {
-      "ngx-slider": [
+      "@m0t0r/ngx-slider": [
         "dist/ngx-slider/"
       ],
-      "ngx-slider/*": [
+      "@m0t0r/ngx-slider/*": [
         "dist/ngx-slider/*"
       ]
     }

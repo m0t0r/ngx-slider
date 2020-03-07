@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Options } from 'ngx-slider';
+import { Options } from '@m0t0r/ngx-slider';
 
 interface SimpleSliderModel {
   value: number;

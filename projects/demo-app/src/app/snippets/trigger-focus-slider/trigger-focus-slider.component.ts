@@ -1,5 +1,5 @@
 import { Component, EventEmitter } from '@angular/core';
-import { Options, PointerType } from 'ngx-slider';
+import { Options, PointerType } from '@m0t0r/ngx-slider';
 
 @Component({
   selector: 'app-trigger-focus-slider',

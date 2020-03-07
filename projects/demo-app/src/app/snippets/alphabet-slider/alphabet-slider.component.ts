@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Options, LabelType, CustomStepDefinition } from 'ngx-slider';
+import { Options, LabelType, CustomStepDefinition } from '@m0t0r/ngx-slider';
 
 @Component({
   selector: 'app-alphabet-slider',
