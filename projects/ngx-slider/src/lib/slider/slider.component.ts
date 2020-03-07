@@ -34,17 +34,17 @@ import {
   ValueToPositionFunction,
   PositionToValueFunction,
   CustomStepDefinition
-} from './options';
-import { PointerType } from './pointer-type';
-import { ChangeContext } from './change-context';
-import { ValueHelper } from './value-helper';
-import { CompatibilityHelper } from './compatibility-helper';
-import { MathHelper } from './math-helper';
-import { EventListener } from './event-listener';
-import { EventListenerHelper } from './event-listener-helper';
-import { SliderElementDirective } from './slider-element.directive';
-import { SliderHandleDirective } from './slider-handle.directive';
-import { SliderLabelDirective } from './slider-label.directive';
+} from '../interfaces/options';
+import { PointerType } from '../interfaces/pointer-type';
+import { ChangeContext } from '../interfaces/change-context';
+import { ValueHelper } from '../helpers/value-helper';
+import { CompatibilityHelper } from '../helpers/compatibility-helper';
+import { MathHelper } from '../helpers/math-helper';
+import { EventListener } from '../interfaces/event-listener';
+import { EventListenerHelper } from '../helpers/event-listener-helper';
+import { SliderElementDirective } from '../directives/slider-element.directive';
+import { SliderHandleDirective } from '../directives/slider-handle.directive';
+import { SliderLabelDirective } from '../directives/slider-label.directive';
 
 // Declaration for ResizeObserver a new API available in some of newest browsers:
 // https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver

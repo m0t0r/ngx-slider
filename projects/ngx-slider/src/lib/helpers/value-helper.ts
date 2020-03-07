@@ -1,4 +1,4 @@
-import { CustomStepDefinition } from './options';
+import { CustomStepDefinition } from '../interfaces/options';
 
 /**
  *  Collection of functions to handle conversions/lookups of values

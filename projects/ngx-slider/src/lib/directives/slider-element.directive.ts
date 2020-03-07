@@ -1,8 +1,8 @@
   // tslint:disable: variable-name
 import { Directive, ElementRef, Renderer2, HostBinding } from '@angular/core';
-import { EventListenerHelper } from './event-listener-helper';
-import { EventListener } from './event-listener';
-import { ValueHelper } from './value-helper';
+import { EventListenerHelper } from '../helpers/event-listener-helper';
+import { EventListener } from '../interfaces/event-listener';
+import { ValueHelper } from '../helpers/value-helper';
 
 @Directive({
   selector: '[ngxSliderElement]'

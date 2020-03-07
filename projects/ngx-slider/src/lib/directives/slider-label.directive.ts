@@ -1,6 +1,6 @@
 import { Directive, ElementRef, Renderer2 } from '@angular/core';
 import { SliderElementDirective } from './slider-element.directive';
-import { ValueHelper } from './value-helper';
+import { ValueHelper } from '../helpers/value-helper';
 
 @Directive({
   selector: '[ngxSliderLabel]'

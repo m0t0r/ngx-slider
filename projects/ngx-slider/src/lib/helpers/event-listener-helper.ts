@@ -3,7 +3,7 @@ import { Subject } from 'rxjs';
 import { throttleTime, tap } from 'rxjs/operators';
 import detectPassiveEvents from 'detect-passive-events';
 
-import { EventListener } from './event-listener';
+import { EventListener } from '../interfaces/event-listener';
 import { ValueHelper } from './value-helper';
 
 /**
