@@ -1,5 +1,5 @@
 import { Component, EventEmitter } from '@angular/core';
-import { Options } from 'ng5-slider';
+import { Options } from 'ngx-slider';
 
 @Component({
   selector: 'app-manual-refresh-slider',

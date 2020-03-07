@@ -15,7 +15,7 @@ You can see that Typedoc organises the files into global "modules", but it is on
 
 The slider component takes the following inputs and outputs:
 ```html
-<ng5-slider
+<ngx-slider
   [(value)]="<number>"
   [(highValue)]="<number>"
   [options]="<options object>"
@@ -26,7 +26,7 @@ The slider component takes the following inputs and outputs:
   (userChangeEnd)="<event handler>"
   (valueChange)="<event handler>"
   (highValueChange)="<event handler>"
-></ng5-slider>
+></ngx-slider>
 ```
 
 ### Model bindings

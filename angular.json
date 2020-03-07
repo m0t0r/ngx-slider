@@ -103,53 +103,53 @@
         }
       }
     },
-    "ng5-slider": {
-      "root": "projects/ng5-slider",
-      "sourceRoot": "projects/ng5-slider/src",
+    "ngx-slider": {
+      "root": "projects/ngx-slider",
+      "sourceRoot": "projects/ngx-slider/src",
       "projectType": "library",
-      "prefix": "ng5",
+      "prefix": "ngx",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/ng5-slider/tsconfig.lib.json",
-            "project": "projects/ng5-slider/ng-package.json"
+            "tsConfig": "projects/ngx-slider/tsconfig.lib.json",
+            "project": "projects/ngx-slider/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/ng5-slider/tsconfig.lib.prod.json"
+              "tsConfig": "projects/ngx-slider/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ng5-slider/src/test.ts",
-            "tsConfig": "projects/ng5-slider/tsconfig.spec.json",
-            "karmaConfig": "projects/ng5-slider/karma.conf.js"
+            "main": "projects/ngx-slider/src/test.ts",
+            "tsConfig": "projects/ngx-slider/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-slider/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/ng5-slider/tsconfig.lib.json",
-              "projects/ng5-slider/tsconfig.spec.json"
+              "projects/ngx-slider/tsconfig.lib.json",
+              "projects/ngx-slider/tsconfig.spec.json"
             ],
             "exclude": ["**/node_modules/**"]
           }
         }
       }
     },
-    "ng5-slider-e2e": {
-      "root": "projects/ng5-slider-e2e/",
+    "ngx-slider-e2e": {
+      "root": "projects/ngx-slider-e2e/",
       "projectType": "library",
       "prefix": "",
       "architect": {
         "e2e": {
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
-            "protractorConfig": "projects/ng5-slider-e2e/protractor.conf.js",
+            "protractorConfig": "projects/ngx-slider-e2e/protractor.conf.js",
             "devServerTarget": "demo-app:serve"
           },
           "configurations": {

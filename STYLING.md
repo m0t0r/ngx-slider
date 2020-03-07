@@ -54,24 +54,24 @@ Slider is normally styled using a bundled style sheet, but it's possible to over
 As a starting point, it's good idea to have a look at the [SCSS source file of the bundled style sheet](https://github.com/angular-slider/ng5-slider/blob/master/src/ng5-slider/lib/slider.component.scss) to have an idea of how the CSS is structured by default.
 
 The hierarchy slider elements and their CSS classes is:
- - `ng5-slider` class is applied to the `ng5-slider` element
-    * `ng5-slider-pointer` class is applied to slider pointers:
-       - `ng5-slider-pointer-min` is applied to low pointer
-       - `ng5-slider-pointer-max` is applied to high pointer
-    * `ng5-slider-bubble` class is applied to all labels:
-       - `ng5-slider-floor` class is applied to floor label
-       - `ng5-slider-ceil` class is applied to floor label
-       - `ng5-slider-model-value` class is applied to low pointer label
-       - `ng5-slider-model-high` class is applied to high pointer label
-       - `ng5-slider-combined` class is appied to combined label
-    * `ng5-slider-bar` class is applied to all bar elements:
+ - `ngx-slider` class is applied to the `ngx-slider` element
+    * `ngx-slider-pointer` class is applied to slider pointers:
+       - `ngx-slider-pointer-min` is applied to low pointer
+       - `ngx-slider-pointer-max` is applied to high pointer
+    * `ngx-slider-bubble` class is applied to all labels:
+       - `ngx-slider-floor` class is applied to floor label
+       - `ngx-slider-ceil` class is applied to floor label
+       - `ngx-slider-model-value` class is applied to low pointer label
+       - `ngx-slider-model-high` class is applied to high pointer label
+       - `ngx-slider-combined` class is appied to combined label
+    * `ngx-slider-bar` class is applied to all bar elements:
        - no additional class is applied to full bar
-       - `ng5-slider-selection` is applied to selection bar
-       - `ng5-slider-left-out-selection` is applied to left outer selection bar
-       - `ng5-slider-right-out-selection` is applied to right outer selection bar
-    * `ng5-slider-tick` class is applied to each tick element:
-       - `ng5-slider-tick-value` is applied to tick value label
-       - `ng5-slider-tick-legend` is applied to tick legend label
+       - `ngx-slider-selection` is applied to selection bar
+       - `ngx-slider-left-out-selection` is applied to left outer selection bar
+       - `ngx-slider-right-out-selection` is applied to right outer selection bar
+    * `ngx-slider-tick` class is applied to each tick element:
+       - `ngx-slider-tick-value` is applied to tick value label
+       - `ngx-slider-tick-legend` is applied to tick legend label
 
 ### Example
 
@@ -80,15 +80,15 @@ Say we want to change the selection bar colour to yellow for a specific slider.
 An easy way to achieve this is to first add a custom class to a container of the slider element:
 ```html
 <div class="custom-slider">
-  <ng5-slider [(value)]="minValue" [(highValue)]="maxValue" [options]="options"></ng5-slider>
+  <ngx-slider [(value)]="minValue" [(highValue)]="maxValue" [options]="options"></ngx-slider>
 </div>
 ```
 
 Then apply the following stylesheet (using SCSS syntax):
 ```scss
 .custom-slider {
-  .ng5-slider {
-    .ng5-slider-selection {
+  .ngx-slider {
+    .ngx-slider-selection {
       background: rgb(255, 255, 0) !important;
     }
   }
@@ -97,7 +97,7 @@ Then apply the following stylesheet (using SCSS syntax):
 
 Or, if you prefer plain CSS:
 ```css
-.custom-slider .ng5-slider .ng5-slider-selection {
+.custom-slider .ngx-slider .ngx-slider-selection {
   background: rgb(255, 255, 0) !important;
 }
 ```
@@ -106,8 +106,8 @@ Note that the above code is an example of a global stylesheet, applied across yo
 ```scss
 ::ng-deep {
   .custom-slider {
-    .ng5-slider {
-      .ng5-slider-selection {
+    .ngx-slider {
+      .ngx-slider-selection {
         background: rgb(255, 255, 0) !important;
       }
     }

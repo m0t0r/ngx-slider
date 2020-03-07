@@ -5,7 +5,7 @@ import { EventListener } from './event-listener';
 import { ValueHelper } from './value-helper';
 
 @Directive({
-  selector: '[ng5SliderElement]'
+  selector: '[ngxSliderElement]'
 })
 export class SliderElementDirective {
   private _position = 0;

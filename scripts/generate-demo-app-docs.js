@@ -21,13 +21,13 @@ const utils = require('./utils.js');
  * The resulting files are not really useful on their own; they will be used later to generate demo app code
  */
 function generateTypedocDocs(typedocDocsDir) {
-  const publicApiConfigFile = path.resolve(__dirname, '../projects/ng5-slider/src/public_api.json');
+  const publicApiConfigFile = path.resolve(__dirname, '../projects/ngx-slider/src/public_api.json');
   const publicApiConfig = JSON.parse(fs.readFileSync(publicApiConfigFile, {
     encoding: 'utf8'
   }));
 
   const files = publicApiConfig.exports
-    .map(exportDef => path.resolve(__dirname, `../projects/ng5-slider/src/lib/${exportDef.file}.ts`));
+    .map(exportDef => path.resolve(__dirname, `../projects/ngx-slider/src/lib/${exportDef.file}.ts`));
 
   const themeDir = path.resolve(__dirname, '../typedoc-theme');
 

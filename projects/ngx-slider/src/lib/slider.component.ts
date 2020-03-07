@@ -116,7 +116,7 @@ class OutputModelChange extends ModelChange {
   userEventInitiated: boolean;
 }
 
-const NG5_SLIDER_CONTROL_VALUE_ACCESSOR: any = {
+const NGX_SLIDER_CONTROL_VALUE_ACCESSOR: any = {
   provide: NG_VALUE_ACCESSOR,
   /* tslint:disable-next-line: no-use-before-declare */
   useExisting: forwardRef(() => SliderComponent),
@@ -125,12 +125,12 @@ const NG5_SLIDER_CONTROL_VALUE_ACCESSOR: any = {
 
 
 @Component({
-  selector: 'ng5-slider',
+  selector: 'ngx-slider',
   templateUrl: './slider.component.html',
   styleUrls: ['./slider.component.scss'],
   // tslint:disable-next-line: no-host-metadata-property
-  host: { class: 'ng5-slider' },
-  providers: [NG5_SLIDER_CONTROL_VALUE_ACCESSOR]
+  host: { class: 'ngx-slider' },
+  providers: [NGX_SLIDER_CONTROL_VALUE_ACCESSOR]
 })
 export class SliderComponent implements OnInit, AfterViewInit, OnChanges, OnDestroy, ControlValueAccessor {
   // Model for low value of slider. For simple slider, this is the only input. For range slider, this is the low value.

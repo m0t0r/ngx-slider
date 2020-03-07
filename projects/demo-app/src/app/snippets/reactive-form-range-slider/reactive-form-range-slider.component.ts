@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
-import { Options } from 'ng5-slider';
+import { Options } from 'ngx-slider';
 
 @Component({
   selector: 'app-reactive-form-range-slider',

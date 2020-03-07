@@ -19,11 +19,11 @@
       "dom"
     ],
     "paths": {
-      "ng5-slider": [
-        "dist/ng5-slider/"
+      "ngx-slider": [
+        "dist/ngx-slider/"
       ],
-      "ng5-slider/*": [
-        "dist/ng5-slider/*"
+      "ngx-slider/*": [
+        "dist/ngx-slider/*"
       ]
     }
   },

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Options, LabelType } from 'ng5-slider';
+import { Options, LabelType } from 'ngx-slider';
 
 @Component({
   selector: 'app-date-slider',
