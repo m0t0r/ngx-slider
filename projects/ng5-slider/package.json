@@ -1,0 +1,13 @@
+{
+  "name": "ng5-slider",
+  "version": "1.2.4",
+  "dependencies": {
+    "detect-passive-events": "^1.0.4",
+    "rxjs": "~6.5.4"
+  },
+  "peerDependencies": {
+    "@angular/common": "^9.0.0",
+    "@angular/core": "^9.0.0",
+    "tslib": "^1.10.0"
+  }
+}
