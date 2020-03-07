@@ -1,22 +1,17 @@
 {
-  "name": "ng5-slider",
-  "version": "1.2.4",
+  "name": "@m0t0r/ngx-slider",
+  "version": "1.0.0",
   "private": true,
-  "description": "Self-contained, mobile friendly slider component for Angular 5+ based on angularjs-slider",
+  "description": "A customizable slider component for Angular >= 9 based on https://github.com/angular-slider/ng5-slider",
   "keywords": [
     "slider",
     "ui",
     "component",
     "angular",
     "ng",
-    "angular2",
-    "ng2",
-    "angular4",
-    "ng4",
-    "angular5",
-    "ng5"
+    "ngx"
   ],
-  "author": "Piotr Dziwinski",
+  "author": "Vitaly Tkachenko, Piotr Dziwinski",
   "license": "MIT",
   "repository": {
     "type": "git",

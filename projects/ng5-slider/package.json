@@ -1,6 +1,6 @@
 {
-  "name": "ng5-slider",
-  "version": "1.2.4",
+  "name": "@m0t0r/ngx-slider",
+  "version": "1.0.0",
   "dependencies": {
     "detect-passive-events": "^1.0.4",
     "rxjs": "~6.5.4"

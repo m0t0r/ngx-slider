@@ -1,4 +1,4 @@
-# Contributing to ng5-slider
+# Contributing to ngx-slider
 
 # Structure
 
@@ -43,7 +43,7 @@ To run tslint, use:
 npm run lint
 ```
 
-Note: Currently (v1.2.1) most functionality is tested with e2e tests. This is not ideal for development, as running through the whole suite takes quite a long time. The plan for the future is to add more unit tests, so that development is easier.
+Note: Currently most functionality is tested with e2e tests. This is not ideal for development, as running through the whole suite takes quite a long time. The plan for the future is to add more unit tests, so that development is easier.
 
 # Travis CI
 
