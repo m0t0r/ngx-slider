@@ -1865,7 +1865,10 @@ export class SliderComponent implements OnInit, AfterViewInit, OnChanges, OnDest
     pointerElement.on('blur', (): void => this.onPointerBlur(pointerElement));
     pointerElement.on('keydown', (event: KeyboardEvent): void => this.onKeyboardEvent(event));
     pointerElement.on('keyup', (): void => this.onKeyUp());
-    pointerElement.active = true;
+
+    setTimeout(() => {
+      pointerElement.active = true;
+    });
 
     this.currentTrackingPointer = pointerType;
     this.currentFocusPointer = pointerType;
@@ -1881,7 +1884,10 @@ export class SliderComponent implements OnInit, AfterViewInit, OnChanges, OnDest
     pointer.off('blur');
     pointer.off('keydown');
     pointer.off('keyup');
-    pointer.active = false;
+
+    setTimeout(() => {
+      pointer.active = false;
+    });
     if (ValueHelper.isNullOrUndefined(this.touchId)) {
       this.currentTrackingPointer = null;
       this.currentFocusPointer = null;
